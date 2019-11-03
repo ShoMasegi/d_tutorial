@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Tutorial" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/tutorial_gray_700</item>
+        <item name="colorPrimaryDark">@color/tutorial_gray_700</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Tutorial.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Tutorial.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Tutorial.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Tutorial.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Tutorial.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Tutorial.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Tutorial.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Tutorial.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Tutorial.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Tutorial.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Tutorial.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Tutorial.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Tutorial.Overline</item>
+
+    </style>
+
+    <style name="Tutorial" parent="Base.Tutorial"/>
+
+</resources>
