@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="tutorial_gray_900">#171717</color>
+    <color name="tutorial_gray_800">#373737</color>
+    <color name="tutorial_gray_700">#555555</color>
+    <color name="tutorial_gray_600">#686868</color>
 </resources>
