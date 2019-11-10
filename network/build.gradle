@@ -28,6 +28,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$rootProject.kotlinVersion"
 
+    // - Network
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+
     // - Tests
     testImplementation "junit:junit:$rootProject.junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$rootProject.testExtVersion"
