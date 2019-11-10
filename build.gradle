@@ -15,6 +15,7 @@ buildscript {
         materialVersion = '1.1.0-beta01'
 
         // - Architecture Components
+        lifecycleVersion = '2.1.0'
         navigationVersion = '2.1.0'
 
         // - Test
