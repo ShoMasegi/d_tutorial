@@ -18,6 +18,9 @@ buildscript {
         lifecycleVersion = '2.1.0'
         navigationVersion = '2.1.0'
 
+        // - Dagger
+        daggerVersion = '2.25.2'
+
         // - Test
         junitVersion = '4.12'
         testExtVersion = '1.1.1'
