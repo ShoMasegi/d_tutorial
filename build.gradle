@@ -9,10 +9,12 @@ buildscript {
         minSdkVersion = 21
         targetSdkVersion = 29
 
-        // - Android Libraries
+        // - UI
         appcompatVersion = '1.1.0'
-        materialVersion = '1.1.0-beta01'
         constraintlayoutVersion = '1.1.3'
+        materialVersion = '1.1.0-beta01'
+
+        // - Architecture Components
         navigationVersion = '2.1.0'
 
         // - Test
