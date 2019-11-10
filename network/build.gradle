@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
@@ -30,6 +31,10 @@ dependencies {
 
     // - Network
     implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+
+    // - Dagger
+    implementation "com.google.dagger:dagger:$rootProject.daggerVersion"
+    kapt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
 
     // - Tests
     testImplementation "junit:junit:$rootProject.junitVersion"
