@@ -44,6 +44,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:$rootProject.lifecycleVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigationVersion"
     implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.navigationVersion"
+    implementation "androidx.fragment:fragment-ktx:$rootProject.fragmentKtxVersion"
 
     // - Dagger
     implementation "com.google.dagger:dagger:$rootProject.daggerVersion"
