@@ -35,5 +35,6 @@ class EventsFragment : Fragment() {
             .inject(this)
 
         Log.d("Debug","ViewModel: $viewModel")
+        Log.d("Debug","ViewModel.GithubAPI: ${viewModel.githubApi}")
     }
 }
