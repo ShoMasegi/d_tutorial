@@ -35,6 +35,9 @@ dependencies {
 
     implementation "androidx.core:core-ktx:$rootProject.ktxVersion"
 
+    // - Network
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+
     // - UI
     implementation "androidx.appcompat:appcompat:$rootProject.appcompatVersion"
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintlayoutVersion"
