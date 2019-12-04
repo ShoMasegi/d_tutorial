@@ -1,6 +1,7 @@
 package com.sho.masegi.tutorial.di
 
 import android.content.Context
+import com.sho.masegi.network.di.NetworkModule
 import com.sho.masegi.tutorial.ui.events.EventsComponent
 import dagger.BindsInstance
 import dagger.Component
@@ -10,7 +11,8 @@ import javax.inject.Singleton
 @Component(
     modules = [
         ViewModelModule::class,
-        SubcomponentsModule::class
+        SubcomponentsModule::class,
+        NetworkModule::class
     ]
 )
 interface AppComponent {
