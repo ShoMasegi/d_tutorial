@@ -24,6 +24,7 @@ buildscript {
 
         // - Network
         retrofitVersion = '2.6.2'
+        kotshiVersion = '2.0.2'
 
         // - Test
         junitVersion = '4.12'
