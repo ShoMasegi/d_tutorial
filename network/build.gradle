@@ -40,6 +40,9 @@ dependencies {
     implementation "com.google.dagger:dagger:$rootProject.daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
 
+    // - Date and Time
+    implementation "org.threeten:threetenbp:$rootProject.threetenbpVersion:no-tzdb"
+
     // - Tests
     testImplementation "junit:junit:$rootProject.junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$rootProject.testExtVersion"
