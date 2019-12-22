@@ -2,7 +2,6 @@ package com.sho.masegi.tutorial.ui.events
 
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -10,6 +9,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.observe
 import com.sho.masegi.tutorial.MainApplication
 
 import com.sho.masegi.tutorial.R
@@ -38,7 +38,8 @@ class EventsFragment : Fragment() {
             .create()
             .inject(this)
 
-        Log.d("Debug","ViewModel: $viewModel")
-        Log.d("Debug","ViewModel.GithubAPI: ${viewModel.githubApi}")
+        viewModel.events.observe(this) {
+            binding.textView.text = it.count().toString()
+        }
     }
 }
