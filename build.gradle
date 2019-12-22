@@ -25,6 +25,7 @@ buildscript {
 
         // - Date and Time
         threetenabpVersion = '1.2.1'
+        threetenbpVersion = '1.4.0'
 
         // - Network
         retrofitVersion = '2.6.2'

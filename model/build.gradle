@@ -7,6 +7,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$rootProject.kotlinVersion"
     implementation "androidx.core:core-ktx:$rootProject.ktxVersion"
 
+    // - Date and Time
+    implementation "org.threeten:threetenbp:$rootProject.threetenbpVersion:no-tzdb"
+
     // - Serializer
     implementation "se.ansman.kotshi:api:$rootProject.kotshiVersion"
     kapt "se.ansman.kotshi:compiler:$rootProject.kotshiVersion"
