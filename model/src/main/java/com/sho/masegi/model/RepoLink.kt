@@ -1,7 +1,6 @@
 package com.sho.masegi.model
 
 import se.ansman.kotshi.JsonSerializable
-import java.net.URL
 
 @JsonSerializable
 data class RepoLink(

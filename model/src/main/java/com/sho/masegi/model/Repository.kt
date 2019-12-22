@@ -2,8 +2,6 @@ package com.sho.masegi.model
 
 import org.threeten.bp.ZonedDateTime
 import se.ansman.kotshi.JsonSerializable
-import java.net.URL
-import java.util.Date
 
 typealias RepositoryId = Long
 
