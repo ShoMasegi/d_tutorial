@@ -1,13 +1,15 @@
 package com.sho.masegi.model
 
+import se.ansman.kotshi.JsonSerializable
 import java.net.URL
 
 typealias UserId = Long
 
+@JsonSerializable
 data class User(
     val id: UserId,
     val login: String,
     val displayLogin: String?,
-    val url: URL,
-    val avatarUrl: URL
+    val url: String,
+    val avatarUrl: String
 )

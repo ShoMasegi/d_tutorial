@@ -16,6 +16,7 @@ buildscript {
 
         // - Architecture Components
         lifecycleVersion = '2.1.0'
+        liveDataKtxVersion = '2.2.0-alpha01'
         navigationVersion = '2.1.0'
         fragmentKtxVersion = '1.1.0'
 
