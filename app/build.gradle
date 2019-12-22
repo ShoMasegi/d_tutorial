@@ -54,6 +54,9 @@ dependencies {
     implementation "com.google.dagger:dagger:$rootProject.daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
 
+    // - Date and Time
+    api "com.jakewharton.threetenabp:threetenabp:$rootProject.threetenabpVersion"
+
     // - Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$rootProject.kotlinVersion"
 

@@ -23,6 +23,9 @@ buildscript {
         // - Dagger
         daggerVersion = '2.25.2'
 
+        // - Date and Time
+        threetenabpVersion = '1.2.1'
+
         // - Network
         retrofitVersion = '2.6.2'
         okhttpLoggingVersion = '4.2.2'
