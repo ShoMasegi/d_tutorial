@@ -2,12 +2,14 @@ package com.sho.masegi.network.di
 
 import com.sho.masegi.network.ApplicationJsonAdapterFactory
 import com.sho.masegi.network.GitHubApi
+import com.sho.masegi.network.adapter.ZonedDateTimeJsonAdapter
 import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
+import org.threeten.bp.ZonedDateTime
 import retrofit2.Converter
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
@@ -25,6 +27,7 @@ class NetworkModule {
     fun provideConverterFactory(): Converter.Factory {
         val moshi = Moshi.Builder()
             .add(ApplicationJsonAdapterFactory.instance)
+            .add(ZonedDateTime::class.java, ZonedDateTimeJsonAdapter())
             .build()
         return MoshiConverterFactory.create(moshi)
     }
