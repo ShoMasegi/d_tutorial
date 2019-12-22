@@ -31,6 +31,7 @@ dependencies {
     // - Network
     implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
     implementation "com.squareup.retrofit2:converter-moshi:$rootProject.retrofitVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.okhttpLoggingVersion"
     implementation "se.ansman.kotshi:api:$rootProject.kotshiVersion"
     kapt "se.ansman.kotshi:compiler:$rootProject.kotshiVersion"
 
