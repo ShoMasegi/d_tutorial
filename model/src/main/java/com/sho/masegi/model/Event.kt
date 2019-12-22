@@ -1,7 +1,7 @@
 package com.sho.masegi.model
 
+import org.threeten.bp.ZonedDateTime
 import se.ansman.kotshi.JsonSerializable
-import java.util.*
 
 typealias EventId = String
 
@@ -11,5 +11,5 @@ data class Event(
     val type: String,
     val actor: User,
     val repo: RepoLink,
-    val createdAt: String
+    val createdAt: ZonedDateTime
 )
